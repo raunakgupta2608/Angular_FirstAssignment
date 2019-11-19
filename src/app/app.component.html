@@ -27,7 +27,7 @@
           <p>Id : {{response.id}} </p>
           <p>Gists_url : {{response.gists_url}} </p>
           <div *ngIf= "details">
-            <p>{{details}} : {{response.followers}} </p>
+            <p>{{details}} : {{response. + searchOtherDetails()}} </p>
           </div>
         </div>
       
