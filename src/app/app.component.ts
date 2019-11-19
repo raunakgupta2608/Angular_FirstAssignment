@@ -27,6 +27,9 @@ export class AppComponent {
     let e: any = this.details;
     console.log(e);
     this.d = this.response.e;
+    
+//     this.d = this.details;
+//     return this.d;
   }
   
 }
